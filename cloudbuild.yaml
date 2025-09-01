@@ -1,0 +1,5 @@
+steps:
+  - name: 'alpine'
+    id: 'Echo Hello'
+    entrypoint: 'echo'
+    args: ['hello world']
